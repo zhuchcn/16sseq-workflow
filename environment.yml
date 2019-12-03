@@ -5,7 +5,6 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - appnope=0.1.0
   - attrs=19.1.0
   - backcall=0.1.0
   - bash-kernel=0.7.1
@@ -54,7 +53,6 @@ dependencies:
   - libcxxabi=8.0.1
   - libffi=3.2.1
   - libgd=2.2.5
-  - libgfortran=4.0.0
   - libgtextutils=0.7
   - libiconv=1.15
   - liblapack=3.8.0
