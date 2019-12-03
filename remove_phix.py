@@ -5,6 +5,30 @@ from Bio.Seq import Seq
 from Bio import SeqUtils
 import os
 
+
+# class InputFiles():
+#     def __init__(self, forard, reverse):
+#         self.forward = forward
+#         self.reverse = reverse
+
+
+# class InputMeta():
+#     def __init__(self, barcode_file, forward_primer, reverse_primer):
+#         self.barcode_file = barcode_file
+#         self.forward_primer = forward_primer
+#         self.reverse_primer = reverse_primer
+
+
+# def DemultxSampleReads():
+
+#     def __init__(self, input_files, input_meta, input_dir, output_dir):
+#         self.input_files = input_files
+#         self.input_meta = input_meta
+#         self.input_dir = input_dir
+#         self.output_dir = output_dir
+
+
+
 class pairedEndReadsFilterGroup(object):
     def __init__(self, forward_list, reverse_list, input_path, output_path, barcodes_file, forward_primer, reverse_primer):
         self.forward_list = []
